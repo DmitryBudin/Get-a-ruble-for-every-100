@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         int account = 200;
-        int refill = 1400;
+        int refill = 1500;
         int step = 100;
         int bonus = refill / step;
-        int limit = 1100;
-        int total_accaunt = account + refill + bonus;
+        int limit = 1001;
+        int totalAccount = account + refill + bonus;
         if (refill < limit) {
             bonus = 0;
         }
